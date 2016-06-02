@@ -1,0 +1,701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:7
+#: framework/frontend/functions/functions.php:243
+#@ ruventhemes
+msgid "Page not found"
+msgstr "Pagina niet gevonden"
+
+#: 404.php:9
+#@ ruventhemes
+msgid "Sorry, the page you're looking for is not here! Either keep looking, or try to search for it."
+msgstr "De door u opgevraagde pagina is niet gevonden. Probeer de zoekfunctie hieronder."
+
+#: comments.php:20
+#@ ruventhemes
+msgid "No Comments"
+msgstr "Geen reacties"
+
+#: comments.php:20
+#@ ruventhemes
+msgid "One Comment"
+msgstr "Een reactie"
+
+#: comments.php:20
+#: lib/frontend/functions/entry.php:282
+#@ ruventhemes
+msgid "% Comments"
+msgstr "% Reacties"
+
+#: comments.php:21
+#, php-format
+#@ ruventhemes
+msgctxt "comments-heading"
+msgid "on &#8220;%s&#8221;"
+msgstr "op &#8220;%s&#8221;"
+
+#: comments.php:35
+#@ ruventhemes
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#: comments.php:36
+#@ ruventhemes
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: comments.php:44
+#@ ruventhemes
+msgid "Comments are closed."
+msgstr "Reageren is niet meer mogelijk."
+
+#: contact_form_mailer.php:80
+#@ ruventhemes
+msgid "The message couldn't be sent because an internal error occured."
+msgstr "Het bericht is niet verzonden vanwege een interne fout."
+
+#: framework/frontend/functions/functions.php:25
+#: framework/frontend/functions/functions.php:26
+#: framework/frontend/functions/functions.php:27
+#: framework/frontend/functions/functions.php:28
+#: framework/frontend/functions/functions.php:29
+#: framework/frontend/functions/functions.php:36
+#: framework/frontend/functions/functions.php:237
+#, php-format
+#@ ruventhemes
+msgid "Archive for %s"
+msgstr "Archief voor %s"
+
+#: framework/frontend/functions/functions.php:32
+#, php-format
+#@ ruventhemes
+msgid "Author Archive for %s"
+msgstr "Auteur van archief %s"
+
+#: framework/frontend/functions/functions.php:240
+#, php-format
+#@ ruventhemes
+msgid "Search Results for %s"
+msgstr "Zoekresultaten voor %s"
+
+#: lib/backend/custom_post_types/featured_items.php:13
+#@ ruventhemes
+msgctxt "post type name"
+msgid "Featured Items"
+msgstr "Uitgelichte items"
+
+#: lib/backend/custom_post_types/featured_items.php:14
+#@ ruventhemes
+msgctxt "singular post type name"
+msgid "Featured Item"
+msgstr "Uitgelicht item"
+
+#: lib/backend/custom_post_types/featured_items.php:15
+#@ ruventhemes
+msgctxt "slideshow"
+msgid "Add New"
+msgstr "Voeg nieuwe toe"
+
+#: lib/backend/custom_post_types/featured_items.php:16
+#@ ruventhemes
+msgid "Add New Featured Item"
+msgstr "Voeg uitgelicht item toe"
+
+#: lib/backend/custom_post_types/featured_items.php:17
+#@ ruventhemes
+msgid "Edit Featured Item"
+msgstr "Wijzig uitgelicht item"
+
+#: lib/backend/custom_post_types/featured_items.php:18
+#@ ruventhemes
+msgid "New Featured Item"
+msgstr "Nieuw uitgelicht item"
+
+#: lib/backend/custom_post_types/featured_items.php:19
+#@ ruventhemes
+msgid "View Featured Item"
+msgstr "Bekijk uitgelicht item"
+
+#: lib/backend/custom_post_types/featured_items.php:20
+#@ ruventhemes
+msgid "Search Featured Items"
+msgstr "Zoek uitgelichte items"
+
+#: lib/backend/custom_post_types/featured_items.php:21
+#@ ruventhemes
+msgid "No Featured Items Found"
+msgstr "Geen uitgelichte items gevonden"
+
+#: lib/backend/custom_post_types/featured_items.php:22
+#@ ruventhemes
+msgid "No Featured Items Found in Trash"
+msgstr "Geen uitgelichte items in prullenbak gevonden"
+
+#: lib/backend/custom_post_types/portfolio.php:12
+#@ ruventhemes
+msgctxt "post type name"
+msgid "Portfolio Items"
+msgstr "Portfolio Items"
+
+#: lib/backend/custom_post_types/portfolio.php:13
+#@ ruventhemes
+msgctxt "singular post type name"
+msgid "Portfolio Item"
+msgstr "Portfolio Item"
+
+#: lib/backend/custom_post_types/portfolio.php:14
+#@ ruventhemes
+msgctxt "portfolio"
+msgid "Add New"
+msgstr "Voeg nieuwe toe"
+
+#: lib/backend/custom_post_types/portfolio.php:15
+#@ ruventhemes
+msgid "Add New Portfolio Item"
+msgstr "Voeg nieuw portfolio item toe"
+
+#: lib/backend/custom_post_types/portfolio.php:16
+#@ ruventhemes
+msgid "Edit Portfolio Item"
+msgstr "Wijzig portfolio item"
+
+#: lib/backend/custom_post_types/portfolio.php:17
+#@ ruventhemes
+msgid "New Portfolio Item"
+msgstr "Nieuw portfolio item"
+
+#: lib/backend/custom_post_types/portfolio.php:18
+#@ ruventhemes
+msgid "View Portfolio Item"
+msgstr "Bekijk portfolio item"
+
+#: lib/backend/custom_post_types/portfolio.php:19
+#@ ruventhemes
+msgid "Search Portfolio Items"
+msgstr "Zoek portfolio item"
+
+#: lib/backend/custom_post_types/portfolio.php:20
+#@ ruventhemes
+msgid "No Portfolio Items found"
+msgstr "Geen portfolio items gevonden"
+
+#: lib/backend/custom_post_types/portfolio.php:21
+#@ ruventhemes
+msgid "No Portfolio Items found in Trash"
+msgstr "Geen portfolio items in prullenbak gevonden"
+
+#: lib/backend/custom_post_types/portfolio.php:49
+#@ ruventhemes
+msgid "Portfolio Categories"
+msgstr "Portfolio categorieën "
+
+#: lib/backend/custom_post_types/portfolio.php:50
+#@ ruventhemes
+msgid "Portfolio Category"
+msgstr "Portfolio categorie"
+
+#: lib/frontend/functions/entry.php:202
+#@ ruventhemes
+msgid "Tags:"
+msgstr "Tags:"
+
+#: lib/frontend/functions/entry.php:274
+#@ ruventhemes
+msgid "No Category"
+msgstr "Geen categorie"
+
+#: lib/frontend/functions/entry.php:282
+#@ ruventhemes
+msgid "Leave a comment"
+msgstr "Laat een reactie achter"
+
+#: lib/frontend/functions/entry.php:282
+#@ ruventhemes
+msgid "1 Comment"
+msgstr "1 Reactie"
+
+#: lib/frontend/functions/entry.php:282
+#@ ruventhemes
+msgid "Comments Off"
+msgstr "Reageren is niet mogelijk"
+
+#: lib/frontend/functions/functions.php:262
+#@ ruventhemes
+msgctxt "menu entry"
+msgid "Home"
+msgstr "Home"
+
+#: lib/frontend/functions/functions.php:716
+#@ ruventhemes
+msgctxt "paginator"
+msgid "Prev"
+msgstr "Vorige"
+
+#: lib/frontend/functions/functions.php:729
+#@ ruventhemes
+msgctxt "paginator"
+msgid "Next"
+msgstr "Volgende"
+
+#: lib/frontend/functions/functions.php:880
+#: lib/frontend/functions/shortcodes.php:35
+#@ ruventhemes
+msgid "Name"
+msgstr "Naam"
+
+#: lib/frontend/functions/functions.php:884
+#: lib/frontend/functions/shortcodes.php:40
+#@ ruventhemes
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: lib/frontend/functions/functions.php:884
+#@ ruventhemes
+msgid "(will not be published)"
+msgstr "(wordt niet gepubliceerd)"
+
+#: lib/frontend/functions/functions.php:888
+#@ ruventhemes
+msgid "Website"
+msgstr "Website"
+
+#: lib/frontend/functions/functions.php:896
+#, php-format
+#@ default
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Je moet ingelogd zijn <a href=\"%s\">log in</a> om een reactie te geven."
+
+#: lib/frontend/functions/functions.php:897
+#, php-format
+#@ default
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Ingelogd als <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log uit van dit account\">Uitloggen?</a>"
+
+#: lib/frontend/functions/functions.php:899
+#, php-format
+#@ default
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "De volgende <abbr title=\"HyperText Markup Language\">HTML</abbr> tags en attributen mogen gebruikt worden: %s"
+
+#: lib/frontend/functions/functions.php:902
+#@ ruventhemes
+msgid "Leave a Reply"
+msgstr "Geef een reactie"
+
+#: lib/frontend/functions/functions.php:903
+#, php-format
+#@ ruventhemes
+msgid "Leave a Reply to %s"
+msgstr "Reageer op %s"
+
+#: lib/frontend/functions/functions.php:904
+#@ ruventhemes
+msgid "Cancel Reply"
+msgstr "Verwijder reactie"
+
+#: lib/frontend/functions/functions.php:905
+#@ ruventhemes
+msgid "Submit Reply"
+msgstr "Verstuur reactie"
+
+#: lib/frontend/functions/functions.php:941
+#, php-format
+#@ ruventhemes
+msgctxt "timeframe"
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: lib/frontend/functions/functions.php:953
+#@ ruventhemes
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie wacht op toestemming"
+
+#: lib/frontend/functions/functions.php:961
+#@ ruventhemes
+msgid "Edit"
+msgstr "Wijzig"
+
+#: lib/frontend/functions/functions.php:1028
+#@ ruventhemes
+msgid "No Entries Found"
+msgstr "Geen berichten gevonden"
+
+#: lib/frontend/functions/functions.php:1029
+#@ ruventhemes
+msgid "Sorry, but there are no entries in here that are matching your criteria."
+msgstr "Sorry, geen berichten gevonden die aan je zoek criteria voldeden."
+
+#: lib/frontend/functions/shortcodes.php:13
+#, php-format
+#@ ruventhemes
+msgid "This E-Mail was sent through the contact form on your website %s."
+msgstr "Deze e-mail is verzonden via het contactformulier op de website %s."
+
+#: lib/frontend/functions/shortcodes.php:14
+#@ ruventhemes
+msgid "The message was sent successfully."
+msgstr "Het bericht is succesvol verzonden."
+
+#: lib/frontend/functions/shortcodes.php:15
+#@ ruventhemes
+msgid "Please fill in all fields correctly."
+msgstr "A.u.b. alle velden invullen."
+
+#: lib/frontend/functions/shortcodes.php:30
+#@ ruventhemes
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: lib/frontend/functions/shortcodes.php:51
+#@ ruventhemes
+msgid "Send Message"
+msgstr "Verstuur bericht"
+
+#: lib/shared/widgets/_demo_widget.php:19
+#@ ruventhemes
+msgid "Your demo widget"
+msgstr "Je demo widget"
+
+#: lib/shared/widgets/_demo_widget.php:20
+#@ ruventhemes
+msgid "CUSTOM: Demo Widget"
+msgstr "CUSTOM: Demo Widget"
+
+#: lib/shared/widgets/_demo_widget.php:31
+#: lib/shared/widgets/_demo_widget.php:75
+#@ ruventhemes
+msgid "Default Title"
+msgstr "Standaard titel"
+
+#: lib/shared/widgets/_demo_widget.php:87
+#: lib/shared/widgets/ads.php:98
+#: lib/shared/widgets/contact.php:104
+#: lib/shared/widgets/flickr.php:91
+#: lib/shared/widgets/latest_posts.php:142
+#: lib/shared/widgets/latest_work.php:149
+#: lib/shared/widgets/social.php:94
+#: lib/shared/widgets/sub_nav.php:85
+#: lib/shared/widgets/twitter.php:226
+#@ ruventhemes
+msgid "Title:"
+msgstr "Titel:"
+
+#: lib/shared/widgets/_demo_widget.php:91
+#@ ruventhemes
+msgid "Text:"
+msgstr "Onderwerp:"
+
+#: lib/shared/widgets/_demo_widget.php:95
+#@ ruventhemes
+msgid "Textarea:"
+msgstr "Onderwerp ruimte:"
+
+#: lib/shared/widgets/_demo_widget.php:100
+#@ ruventhemes
+msgid "Check"
+msgstr "Check"
+
+#: lib/shared/widgets/_demo_widget.php:103
+#@ ruventhemes
+msgid "Select:"
+msgstr "Selecteer:"
+
+#: lib/shared/widgets/_demo_widget.php:114
+#@ ruventhemes
+msgid "Option 1"
+msgstr "Optie 1"
+
+#: lib/shared/widgets/_demo_widget.php:117
+#@ ruventhemes
+msgid "Option 2"
+msgstr "Optie 2"
+
+#: lib/shared/widgets/_demo_widget.php:120
+#@ ruventhemes
+msgid "Option 3"
+msgstr "Optie 3"
+
+#: lib/shared/widgets/ads.php:26
+#@ ruventhemes
+msgid "Display 125 pixel ads (works only if wider sidebar layout is enabled)"
+msgstr "Laat een 125 pixel advertentie zien (werk alleen indien sidebar op wijd staat)"
+
+#: lib/shared/widgets/ads.php:27
+#@ ruventhemes
+msgid "CUSTOM: 125 Pixel Ads"
+msgstr "CUSTOM: 125 Pixel Advertentie"
+
+#: lib/shared/widgets/ads.php:38
+#: lib/shared/widgets/ads.php:87
+#@ ruventhemes
+msgid "Downloads"
+msgstr "Downloads"
+
+#: lib/shared/widgets/ads.php:103
+#, php-format
+#@ ruventhemes
+msgid "Image (125x125) URL #%d:"
+msgstr "Afbeeldings (125x125) URL #%d:"
+
+#: lib/shared/widgets/ads.php:107
+#, php-format
+#@ ruventhemes
+msgid "Referal URL #%d:"
+msgstr "Verwijzende URL #%d:"
+
+#: lib/shared/widgets/contact.php:19
+#@ ruventhemes
+msgid "Your Contact Data"
+msgstr "Jouw contact gegevens"
+
+#: lib/shared/widgets/contact.php:20
+#@ ruventhemes
+msgid "CUSTOM: Contact Data"
+msgstr "CUSTOM: Contact gegevens"
+
+#: lib/shared/widgets/contact.php:31
+#: lib/shared/widgets/contact.php:92
+#@ ruventhemes
+msgid "Contact"
+msgstr "Contact"
+
+#: lib/shared/widgets/contact.php:108
+#@ ruventhemes
+msgid "Company Name:"
+msgstr "Bedrijfsnaam:"
+
+#: lib/shared/widgets/contact.php:112
+#@ ruventhemes
+msgid "Address:"
+msgstr "Adres:"
+
+#: lib/shared/widgets/contact.php:116
+#@ ruventhemes
+msgid "Data Field 1:"
+msgstr "Invoerveld 1:"
+
+#: lib/shared/widgets/contact.php:120
+#@ ruventhemes
+msgid "Data Field 2:"
+msgstr "Invoerveld 2:"
+
+#: lib/shared/widgets/contact.php:124
+#@ ruventhemes
+msgid "Data Field 3:"
+msgstr "Invoerveld 3:"
+
+#: lib/shared/widgets/contact.php:129
+#@ ruventhemes
+msgid "Show Social Icons"
+msgstr "Laat social icons zien"
+
+#: lib/shared/widgets/flickr.php:19
+#@ ruventhemes
+msgid "Flickr Picture Stream"
+msgstr "Flickr Afbeeldingen Stream"
+
+#: lib/shared/widgets/flickr.php:20
+#@ ruventhemes
+msgid "CUSTOM: Flickr"
+msgstr "CUSTOM: Flickr"
+
+#: lib/shared/widgets/flickr.php:31
+#: lib/shared/widgets/flickr.php:80
+#@ ruventhemes
+msgid "Flickr Stream"
+msgstr "Flickr Stream"
+
+#: lib/shared/widgets/flickr.php:95
+#@ ruventhemes
+msgid "Flickr ID (<a href=\"http://idgettr.com/\">get ID here</a>):"
+msgstr "Flickr ID (<a href=\"http://idgettr.com/\">vraag ID aan</a>):"
+
+#: lib/shared/widgets/flickr.php:102
+#@ ruventhemes
+msgid "User"
+msgstr "Gebruiker"
+
+#: lib/shared/widgets/flickr.php:105
+#@ ruventhemes
+msgid "Group"
+msgstr "Groep"
+
+#: lib/shared/widgets/flickr.php:111
+#@ ruventhemes
+msgid "Latest Pictures"
+msgstr "Laatste afbeeldingen"
+
+#: lib/shared/widgets/flickr.php:114
+#@ ruventhemes
+msgid "Random Pictures"
+msgstr "Wisselende afbeeldingen"
+
+#: lib/shared/widgets/flickr.php:117
+#@ ruventhemes
+msgid "Number of pictures to show:"
+msgstr "Aantal afbeeldingen om te laten zien:"
+
+#: lib/shared/widgets/latest_posts.php:19
+#: lib/shared/widgets/latest_work.php:19
+#@ ruventhemes
+msgid "Shows your latest portfolio entries"
+msgstr "Laat de laatste portfolio items zien"
+
+#: lib/shared/widgets/latest_posts.php:21
+#@ ruventhemes
+msgid "CUSTOM: Latest Posts"
+msgstr "CUSTOM: Laatste berichten"
+
+#: lib/shared/widgets/latest_posts.php:47
+#: lib/shared/widgets/latest_posts.php:132
+#@ ruventhemes
+msgid "Latest Posts"
+msgstr "Laatste berichten"
+
+#: lib/shared/widgets/latest_posts.php:146
+#: lib/shared/widgets/latest_work.php:153
+#: lib/shared/widgets/twitter.php:234
+#@ ruventhemes
+msgid "Number of entries to show:"
+msgstr "Aantal berichten om te tonen:"
+
+#: lib/shared/widgets/latest_work.php:21
+#@ ruventhemes
+msgid "CUSTOM: Latest Work"
+msgstr "CUSTOM: Laatste werk"
+
+#: lib/shared/widgets/latest_work.php:47
+#: lib/shared/widgets/latest_work.php:139
+#@ ruventhemes
+msgid "Latest Work"
+msgstr "Laatste werk"
+
+#: lib/shared/widgets/latest_work.php:158
+#@ ruventhemes
+msgid "Show as list"
+msgstr "Laat als lijst zien"
+
+#: lib/shared/widgets/social.php:19
+#@ ruventhemes
+msgid "Show your social links"
+msgstr "Toon je social icons"
+
+#: lib/shared/widgets/social.php:20
+#@ ruventhemes
+msgid "CUSTOM: Social Links"
+msgstr "CUSTOM: Social Links"
+
+#: lib/shared/widgets/social.php:31
+#: lib/shared/widgets/social.php:84
+#@ ruventhemes
+msgid "Social Links"
+msgstr "Social Links"
+
+#: lib/shared/widgets/social.php:98
+#@ ruventhemes
+msgid "Number of links to show:"
+msgstr "Aantal links wat je wilt tonen:"
+
+#: lib/shared/widgets/sub_nav.php:19
+#@ ruventhemes
+msgid "A sub navigation of all child pages"
+msgstr "Subnavigatie van onderliggende pagina's"
+
+#: lib/shared/widgets/sub_nav.php:20
+#@ ruventhemes
+msgid "CUSTOM: Sub Navigation"
+msgstr "CUSTOM: Subnavigatie"
+
+#: lib/shared/widgets/sub_nav.php:31
+#: lib/shared/widgets/sub_nav.php:77
+#@ ruventhemes
+msgid "Sub Navigation"
+msgstr "Subnavigatie"
+
+#: lib/shared/widgets/sub_nav.php:89
+#@ ruventhemes
+msgid "Menu Level Depth:"
+msgstr "Menu niveau diepte:"
+
+#: lib/shared/widgets/twitter.php:48
+#@ ruventhemes
+msgid "Display your latest tweets"
+msgstr "Toon je laatste tweets"
+
+#: lib/shared/widgets/twitter.php:49
+#@ ruventhemes
+msgid "CUSTOM: Twitter"
+msgstr "CUSTOM: Twitter"
+
+#: lib/shared/widgets/twitter.php:61
+#: lib/shared/widgets/twitter.php:211
+#@ ruventhemes
+msgid "Latest Tweets"
+msgstr "Laatste tweets"
+
+#: lib/shared/widgets/twitter.php:85
+#: lib/shared/widgets/twitter.php:167
+#@ ruventhemes
+msgid "Error while loading Twitter feed."
+msgstr "Fout tijdens het laden van twitter"
+
+#: lib/shared/widgets/twitter.php:230
+#@ ruventhemes
+msgid "Your Twitter username:"
+msgstr "Je twitter naam:"
+
+#: lib/shared/widgets/twitter.php:239
+#@ ruventhemes
+msgid "Show Date"
+msgstr "Toon datum"
+
+#: lib/shared/widgets/twitter.php:242
+#@ ruventhemes
+msgid "Show Replies"
+msgstr "Toon reacties"
+
+#: lib/shared/widgets/twitter.php:245
+#@ ruventhemes
+msgid "Show Retweets"
+msgstr "Toon retweets"
+
+#: lib/shared/widgets/twitter.php:248
+#@ ruventhemes
+msgid "Make URLs and usernames clickable"
+msgstr "Maak URLs en gebruikersnamen aanklikbaar"
+
+#: search.php:12
+#, php-format
+#@ ruventhemes
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr "Zoekresultaten voor &#8220;%s&#8221;"
+
+#: searchform.php:4
+#@ ruventhemes
+msgid "Search term"
+msgstr "Zoekterm"
+
+#: searchform.php:5
+#@ ruventhemes
+msgid "Search"
+msgstr "Zoeken"
+

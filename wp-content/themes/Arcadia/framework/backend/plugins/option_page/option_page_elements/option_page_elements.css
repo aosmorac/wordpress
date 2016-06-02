@@ -1,0 +1,135 @@
+
+
+
+.preview-picture img {
+  max-width: 200px;
+  margin-bottom: 5px;
+}
+
+
+
+tr.headline th {
+  padding-bottom: 0;
+}
+
+tr.headline th h3 {
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  border-bottom: 1px solid #bbb;
+}
+
+
+
+.rvn_divider {
+  clear: both;
+}
+
+
+
+#rvn_option-page {
+  width: 800px;
+  position: relative;
+}
+
+#rvn_option-page .header #documentation-link {
+  background: url(../../../images/icon_help.png) left center no-repeat;
+  display: block;
+  font-weight: bold;
+  padding-left: 20px;
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+
+.rvn_option-table {
+  margin-top: 22px;
+}
+
+.rvn_option-table-wrapper.one-half {
+  float: left;
+  width: 388px;
+  margin-right: 22px;
+}
+
+.rvn_option-table-wrapper.last {
+  margin-right: 0;
+}
+
+/*#rvn_option-page table.rvn_option-table tr:nth-child(even),*/
+#rvn_option-page table.rvn_option-table tr:hover {
+  background: #f5f5f5;
+}
+
+#rvn_option-page table.rvn_option-table tr:hover th,
+#rvn_option-page table.rvn_option-table tr:hover td {
+  color: black;
+}
+
+#rvn_option-page table.rvn_option-table tbody tr th,
+#rvn_option-page table.rvn_option-table tbody tr td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#rvn_option-page table.rvn_option-table tbody tr td {
+  padding-right: 15px;
+}
+
+#rvn_option-page table.rvn_option-table tbody tr th {
+  padding-left: 15px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #555;
+  width: 28%;
+}
+
+#rvn_option-page table.rvn_option-table tbody tr td .rvn_option-description {
+  color: #777;
+  margin-top: -1px;
+  padding-bottom: 4px;
+}
+
+#rvn_option-page table.rvn_option-table tbody tr td .rvn_group-option-wrapper,
+#rvn_option-page table.rvn_option-table tbody tr td .rvn_radio-field-wrapper {
+  padding-bottom: 3px;
+}
+
+
+
+#rvn_option-page #default-multitable {
+  display: none;
+}
+
+#rvn_option-page table.multitable tfoot .clone-link {
+  float: left;
+}
+
+#rvn_option-page table.multitable tfoot .remove-link {
+  float: right;
+}
+
+
+
+#rvn_option-page a.reset-link,
+#rvn_option-page a.remove-link {
+  color: #CF1717;
+}
+
+#rvn_option-page a.reset-link {
+  margin-left: 10px;
+}
+
+#rvn_option-page a.remove-link:hover {
+  text-decoration: underline;
+}
+
+#rvn_option-page.portfolio-options-page a.reset-link { display: none; }
+
+
+
+/*
+#wpcontent {
+  background: white !important;
+}
+*/

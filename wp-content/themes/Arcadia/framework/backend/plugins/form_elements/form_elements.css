@@ -1,0 +1,24 @@
+.colorpicker {
+  z-index: 100;
+  background:#eee;
+  border:1px solid #ccc;
+  position:absolute;
+  display:none;
+}
+
+span.block {
+  display: block;
+}
+
+.rvn_option-description {
+  padding-bottom: 5px;
+}
+
+.adaptive-img-height-field-wrapper {
+  padding-left: 25px;
+}
+
+.social-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}

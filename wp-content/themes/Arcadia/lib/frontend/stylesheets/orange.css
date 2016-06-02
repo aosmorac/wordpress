@@ -1,0 +1,180 @@
+
+
+
+/* @group Various Elements
+------------------------------------------------------------ */
+
+.table.default table thead tr th { border-bottom-color: #d85c09; }
+.table.default tfoot tr th, .table.default table tfoot tr td { border-top-color: #d85c09; }
+.highlight, .dropcap-circle.colored, .dropcap-square.colored { background: #d85c09; }
+.dropcap.colored { color: #d85c09; }
+
+a,
+a:hover
+a.passive:hover,
+.passive-links a:hover,
+.widget ul li a:hover,
+.entry a.passive.more-link,
+.entry .entry-heading a:hover { color: #d65804; }
+
+#main-nav ul li ul li a:hover,
+#main-nav ul li ul li.current-menu-item a,
+button:hover,
+a.button:hover, 
+input[type=submit]:hover,
+input[type=reset]:hover,
+.paginator a:hover,
+.paginator span:hover,
+.paginator .current { color: #d65804; }
+ 
+#sidebar a:hover,
+#sidebar ul li.current_page_item a {
+  color: #d65804 !important;
+}
+
+/* @end */
+
+
+
+/* @group Header Bar
+------------------------------------------------------------ */
+
+#header-bar {
+  background-color: #983c0a;
+  color: white;
+  text-shadow: rgba(0,0,0,.3) 1px 1px 0px;
+}
+
+#header-bar a,
+#header-bar a:hover,
+#header-bar nav ul li.current-menu-item a {
+  color: white;
+}
+
+#header-bar nav ul li a {
+  color: #ffcb9e;
+}
+
+/* @end */
+
+
+
+/* @group Header & Footer Backgrounds/Gradients
+------------------------------------------------------------ */
+
+#header {
+  background: #662a02;
+}
+
+#header-bg,
+#footer-bg {
+  opacity: .18;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=8)";
+	filter: alpha(opacity=8);
+}
+
+#header-gradient {
+  background: #662a02; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fa6705 0%, #662a02 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa6705), color-stop(100%,#662a02)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fa6705 0%,#662a02 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fa6705 0%,#662a02 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fa6705 0%,#662a02 100%); /* IE10+ */
+  background: linear-gradient(top,  #fa6705 0%,#662a02 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa6705', endColorstr='#662a02',GradientType=0 ); /* IE6-9 */
+}
+
+#footer-widget-area {
+  background: #803503; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fa6705 0%, #803503 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa6705), color-stop(100%,#803503)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fa6705 0%,#803503 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fa6705 0%,#803503 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fa6705 0%,#803503 100%); /* IE10+ */
+  background: linear-gradient(top,  #fa6705 0%,#803503 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa6705', endColorstr='#803503',GradientType=0 ); /* IE6-9 */
+}
+
+/* @end */
+
+
+
+/* @group Navigation
+------------------------------------------------------------ */
+
+#main-nav > ul > li > a {
+  text-shadow: rgba(0,0,0,.7) 1px 1px 0px;
+}
+
+#main-nav ul li a,
+#main-nav > ul > li.menu-item-home > a {
+  color: #ffcb9e;
+}
+
+#main-nav ul li a:hover,
+#main-nav > ul > li.current-menu-item > a {
+  color: white;
+}
+
+/* @end */
+
+
+
+/* @group Footer
+------------------------------------------------------------ */
+
+#footer-widget-area .quiet {
+  color: #c48f6c;
+}
+
+#footer-widget-area h3 {
+  color: white;
+}
+
+#footer-widget-area,
+#footer-widget-area a,
+#footer-widget-area .widget ul li a {
+  color: #ffcb9e;
+}
+
+#footer-widget-area .widget * {
+  background-color: transparent;
+  border-color: #d5885e;
+  text-shadow: rgba(0,0,0,.3) 1px 1px 0px;
+}
+
+#footer-widget-area a:hover,
+#footer-widget-area .widget ul li.current_page_item a,
+#footer-widget-area .widget ul li a:hover,
+#footer-widget-area .widget_calendar table tbody a,
+#footer-widget-area .widget_calendar table thead tr th {
+  color: white;
+}
+
+#footer-widget-area .widget a.post-date,
+#footer-widget-area .widget_calendar table tbody tr td,
+#footer-widget-area .widget_calendar table caption {
+  color: #c48f6c;
+}
+
+/* @end */
+
+
+
+/* @group Footer Bar
+------------------------------------------------------------ */
+
+#footer-bar {
+  background-color: #421a05;
+  text-shadow: rgba(0,0,0,.5) 1px 1px 0px;
+}
+
+#footer-bar,
+#footer-bar a { color: #e2aa85; }
+
+#footer-bar a:hover,
+#footer-bar nav ul li.current-menu-item a {
+  color: white;
+}
+
+/* @end */

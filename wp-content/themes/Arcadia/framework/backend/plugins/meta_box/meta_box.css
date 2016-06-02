@@ -1,0 +1,37 @@
+.rvn_meta-field {
+  padding: 15px 8px;
+  border-top: 1px solid #dfdfdf;
+}
+
+.rvn_meta-field:first-child {
+  border-top: none;
+}
+
+.rvn_meta-field .rvn_meta-field-title label {
+  font-weight: bold;
+}
+
+.rvn_meta-field .rvn_meta-field-title {
+  padding-bottom: 3px;
+}
+
+.rvn_meta-field .rvn_meta-field-description {
+  color: #777;
+  padding: 3px 0;
+  line-height: 1.4;
+}
+
+.rvn_meta-field .rvn_meta-field-content-wrapper {
+  padding-top: 3px;
+}
+
+.rvn_meta-field .rvn_checkbox-field-wrapper,
+.rvn_meta-field .rvn_radio-field-wrapper {
+  padding: 2px 0;
+}
+
+.rvn_meta-field .preview-picture img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+

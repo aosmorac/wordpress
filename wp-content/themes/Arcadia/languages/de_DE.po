@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arcadia 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-16 22:56-0500\n"
+"PO-Revision-Date: 2012-05-16 21:37-0500\n"
+"Last-Translator: Ruven Pelka <ruven.pelka@gmail.com>\n"
+"Language-Team: Ruven <support@ruventhemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x:2c,1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:7
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+#: ../404.php:9
+msgid "Sorry, the page you're looking for is not here! Either keep looking, or try to search for it."
+msgstr "Die Seite nach der Sie gesucht haben konnte leider nicht gefunden werden."
+
+#: ../comments.php:20
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: ../comments.php:20
+msgid "One Comment"
+msgstr "Ein Kommentar"
+
+#: ../comments.php:20
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: ../comments.php:21
+#, php-format
+msgctxt "comments-heading"
+msgid "on &#8220;%s&#8221;"
+msgstr "zu &#8220;%s&#8221;"
+
+#: ../comments.php:35
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: ../comments.php:36
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: ../comments.php:44
+msgid "Comments are closed."
+msgstr "Kommentare wurden abgeschaltet."
+
+#: ../contact_form_mailer.php:84
+msgid "The message couldn't be sent because an internal error occured."
+msgstr "Aufgrund eines internen Fehlers konnte die Nachricht nicht versand werden."
+
+#: ../search.php:6
+#, php-format
+msgid "Search Results for &#8220;%s&#8221;"
+msgstr "Suchergebnisse für %s"
+
+#: ../searchform.php:4
+msgid "Search term"
+msgstr "Suchbegriff"
+
+#: ../searchform.php:5
+msgid "Search"
+msgstr "Suche"
+
+#: ../framework/frontend/functions/functions.php:25
+#: ../framework/frontend/functions/functions.php:26
+#: ../framework/frontend/functions/functions.php:27
+#: ../framework/frontend/functions/functions.php:28
+#: ../framework/frontend/functions/functions.php:29
+#: ../framework/frontend/functions/functions.php:36
+#: ../framework/frontend/functions/functions.php:237
+#, php-format
+msgid "Archive for %s"
+msgstr "%s Archiv"
+
+#: ../framework/frontend/functions/functions.php:32
+#, php-format
+msgid "Author Archive for %s"
+msgstr "Artikel Archiv von %s"
+
+#: ../framework/frontend/functions/functions.php:240
+#, php-format
+msgid "Search Results for %s"
+msgstr "Suchergebnisse zu %s"
+
+#: ../lib/backend/custom_post_types/featured_items.php:13
+msgctxt "post type name"
+msgid "Featured Items"
+msgstr "Cover-Einträge"
+
+#: ../lib/backend/custom_post_types/featured_items.php:14
+msgctxt "singular post type name"
+msgid "Featured Item"
+msgstr "Cover-Eintrag"
+
+#: ../lib/backend/custom_post_types/featured_items.php:15
+msgctxt "slideshow"
+msgid "Add New"
+msgstr "Erstellen"
+
+#: ../lib/backend/custom_post_types/featured_items.php:16
+msgid "Add New Featured Item"
+msgstr "Cover-Eintrag hinzufügen"
+
+#: ../lib/backend/custom_post_types/featured_items.php:17
+msgid "Edit Featured Item"
+msgstr "Cover-Eintrag bearbeiten"
+
+#: ../lib/backend/custom_post_types/featured_items.php:18
+msgid "New Featured Item"
+msgstr "Neuer Cover-Eintrag"
+
+#: ../lib/backend/custom_post_types/featured_items.php:19
+msgid "View Featured Item"
+msgstr "Cover-Eintrag ansehen"
+
+#: ../lib/backend/custom_post_types/featured_items.php:20
+msgid "Search Featured Items"
+msgstr "Suche Cover-Einträge"
+
+#: ../lib/backend/custom_post_types/featured_items.php:21
+msgid "No Featured Items Found"
+msgstr "Portfolio-Eintrag bearbeiten"
+
+#: ../lib/backend/custom_post_types/featured_items.php:22
+msgid "No Featured Items Found in Trash"
+msgstr "Keine"
+
+#: ../lib/backend/custom_post_types/portfolio.php:12
+msgctxt "post type name"
+msgid "Portfolio Items"
+msgstr "Portfolio-Einträge"
+
+#: ../lib/backend/custom_post_types/portfolio.php:13
+msgctxt "singular post type name"
+msgid "Portfolio Item"
+msgstr "Portfolio-Eintrag"
+
+#: ../lib/backend/custom_post_types/portfolio.php:14
+msgctxt "portfolio"
+msgid "Add New"
+msgstr "Erstellen"
+
+#: ../lib/backend/custom_post_types/portfolio.php:15
+msgid "Add New Portfolio Item"
+msgstr "Neuen Portfolio-Eintrag hinzufügen"
+
+#: ../lib/backend/custom_post_types/portfolio.php:16
+msgid "Edit Portfolio Item"
+msgstr "Portfolio-Eintrag bearbeiten"
+
+#: ../lib/backend/custom_post_types/portfolio.php:17
+msgid "New Portfolio Item"
+msgstr "Neuer Portfolio-Eintrag"
+
+#: ../lib/backend/custom_post_types/portfolio.php:18
+msgid "View Portfolio Item"
+msgstr "Portfolio-Eintrag anzeigen"
+
+#: ../lib/backend/custom_post_types/portfolio.php:19
+msgid "Search Portfolio Items"
+msgstr "Suche Portfolio-Einträge"
+
+#: ../lib/backend/custom_post_types/portfolio.php:20
+msgid "No Portfolio Items found"
+msgstr "Keine Portfolio-Einträge gefunden"
+
+#: ../lib/backend/custom_post_types/portfolio.php:21
+msgid "No Portfolio Items found in Trash"
+msgstr "Es wurden keine Portfolio-Einträge im Papierkorb gefunden"
+
+#: ../lib/backend/custom_post_types/portfolio.php:49
+msgid "Portfolio Categories"
+msgstr "Portfolio-Kategorien"
+
+#: ../lib/backend/custom_post_types/portfolio.php:50
+msgid "Portfolio Category"
+msgstr "Portfolio-Eintrag"
+
+#: ../lib/frontend/functions/entry.php:257
+msgid "No Category"
+msgstr "Keine Kategorie"
+
+#: ../lib/frontend/functions/entry.php:265
+msgid "Leave a comment"
+msgstr "Kommentieren"
+
+#: ../lib/frontend/functions/entry.php:265
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: ../lib/frontend/functions/entry.php:265
+msgid "Comments Off"
+msgstr "Keine Kommentare"
+
+#: ../lib/frontend/functions/functions.php:170
+msgctxt "menu entry"
+msgid "Home"
+msgstr "Start"
+
+#: ../lib/frontend/functions/functions.php:606
+msgctxt "paginator"
+msgid "Prev"
+msgstr "Vorherige Seite"
+
+#: ../lib/frontend/functions/functions.php:619
+msgctxt "paginator"
+msgid "Next"
+msgstr "Nächste Seite"
+
+#: ../lib/frontend/functions/functions.php:770
+#: ../lib/frontend/functions/shortcodes.php:35
+msgid "Name"
+msgstr "Name"
+
+#: ../lib/frontend/functions/functions.php:774
+#: ../lib/frontend/functions/shortcodes.php:40
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: ../lib/frontend/functions/functions.php:774
+msgid "(will not be published)"
+msgstr "(bleibt geheim)"
+
+#: ../lib/frontend/functions/functions.php:778
+msgid "Website"
+msgstr "Website"
+
+#: ../lib/frontend/functions/functions.php:786
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Sie müssen sich <a href=\"%s\">einloggen</a>, um einen Beitrag verfassen zu können."
+
+#: ../lib/frontend/functions/functions.php:787
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Eingeloggt als <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Aus diesen Konto ausloggen\">Ausloggen?</a>"
+
+#: ../lib/frontend/functions/functions.php:789
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Sie können diese <abbr title=\"HyperText Markup Language\">HTML</abbr> Tags und Attribute: %s"
+
+#: ../lib/frontend/functions/functions.php:792
+msgid "Leave a Reply"
+msgstr "Kommentieren"
+
+#: ../lib/frontend/functions/functions.php:793
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s antworten"
+
+#: ../lib/frontend/functions/functions.php:794
+msgid "Cancel Reply"
+msgstr "Antwort zurückziehen"
+
+#: ../lib/frontend/functions/functions.php:795
+msgid "Submit Reply"
+msgstr "Antwort Senden"
+
+#: ../lib/frontend/functions/functions.php:831
+#, php-format
+msgctxt "timeframe"
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: ../lib/frontend/functions/functions.php:843
+msgid "Your comment is awaiting moderation."
+msgstr "Der Kommentar erwartet Freigabe."
+
+#: ../lib/frontend/functions/functions.php:851
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../lib/frontend/functions/functions.php:916
+msgid "No Entries Found"
+msgstr "Keine Einträge gefunden"
+
+#: ../lib/frontend/functions/functions.php:917
+msgid "Sorry, but there are no entries in here that are matching your criteria."
+msgstr "Leider wurden keine passenden Einträge gefunden."
+
+#: ../lib/frontend/functions/shortcodes.php:13
+#, php-format
+msgid "This E-Mail was sent through the contact form on your website %s."
+msgstr "Diese E-Mail wurde über das Kontaktformular Ihrer Website %s versendet."
+
+#: ../lib/frontend/functions/shortcodes.php:14
+msgid "The message was sent successfully."
+msgstr "Die Nachricht wurde erfolgreich versendet."
+
+#: ../lib/frontend/functions/shortcodes.php:15
+msgid "Please fill in all fields correctly."
+msgstr "Bitte füllen Sie alle Felder korrekt aus."
+
+#: ../lib/frontend/functions/shortcodes.php:30
+msgid "Subject"
+msgstr "Betreff"
+
+#: ../lib/frontend/functions/shortcodes.php:51
+msgid "Send Message"
+msgstr "Sende Nachricht"
+
+#: ../lib/shared/widgets/_demo_widget.php:19
+msgid "Your demo widget"
+msgstr "Dein Demo WIdget"
+
+#: ../lib/shared/widgets/_demo_widget.php:20
+msgid "CUSTOM: Demo Widget"
+msgstr "EXTRA: Demo Widget"
+
+#: ../lib/shared/widgets/_demo_widget.php:31
+#: ../lib/shared/widgets/_demo_widget.php:75
+#: ../lib/shared/widgets/ads.php:38
+#: ../lib/shared/widgets/ads.php:87
+msgid "Default Title"
+msgstr "Standard TItel"
+
+#: ../lib/shared/widgets/_demo_widget.php:87
+#: ../lib/shared/widgets/ads.php:98
+#: ../lib/shared/widgets/contact.php:104
+#: ../lib/shared/widgets/flickr.php:91
+#: ../lib/shared/widgets/latest_posts.php:142
+#: ../lib/shared/widgets/latest_work.php:149
+#: ../lib/shared/widgets/social.php:94
+#: ../lib/shared/widgets/sub_nav.php:85
+#: ../lib/shared/widgets/twitter.php:242
+msgid "Title:"
+msgstr "Titel:"
+
+#: ../lib/shared/widgets/_demo_widget.php:91
+msgid "Text:"
+msgstr "Text:"
+
+#: ../lib/shared/widgets/_demo_widget.php:95
+msgid "Textarea:"
+msgstr "Textarea:"
+
+#: ../lib/shared/widgets/_demo_widget.php:100
+msgid "Check"
+msgstr "Check"
+
+#: ../lib/shared/widgets/_demo_widget.php:103
+msgid "Select:"
+msgstr "Select:"
+
+#: ../lib/shared/widgets/_demo_widget.php:114
+msgid "Option 1"
+msgstr "Option 1"
+
+#: ../lib/shared/widgets/_demo_widget.php:117
+msgid "Option 2"
+msgstr "Option 2"
+
+#: ../lib/shared/widgets/_demo_widget.php:120
+msgid "Option 3"
+msgstr "Option 3"
+
+#: ../lib/shared/widgets/ads.php:26
+msgid "Display 125 pixel ads (works only if wider sidebar layout is enabled)"
+msgstr "125-Pixel-Anzeigen (nur aktiv, wenn weite Sidebar ist aktiv)"
+
+#: ../lib/shared/widgets/ads.php:27
+msgid "CUSTOM: 125 Pixel Ads"
+msgstr "EXTRA: 125 Pixel Anzeigen"
+
+#: ../lib/shared/widgets/ads.php:103
+#, php-format
+msgid "Image (125x125) URL #%d:"
+msgstr "Bild (125x125) URL #%d:"
+
+#: ../lib/shared/widgets/ads.php:107
+#, php-format
+msgid "Referal URL #%d:"
+msgstr "Referal URL #%d:"
+
+#: ../lib/shared/widgets/contact.php:19
+msgid "Your Contact Data"
+msgstr "Kontaktdaten"
+
+#: ../lib/shared/widgets/contact.php:20
+msgid "CUSTOM: Contact Data"
+msgstr "EXTRA: Kontaktdaten"
+
+#: ../lib/shared/widgets/contact.php:31
+#: ../lib/shared/widgets/contact.php:92
+msgid "Contact"
+msgstr "Kontakt"
+
+#: ../lib/shared/widgets/contact.php:108
+msgid "Company Name:"
+msgstr "Firmenname:"
+
+#: ../lib/shared/widgets/contact.php:112
+msgid "Address:"
+msgstr "Addresse:"
+
+#: ../lib/shared/widgets/contact.php:116
+msgid "Data Field 1:"
+msgstr "Datenfeld 1:"
+
+#: ../lib/shared/widgets/contact.php:120
+msgid "Data Field 2:"
+msgstr "Datenfeld 2:"
+
+#: ../lib/shared/widgets/contact.php:124
+msgid "Data Field 3:"
+msgstr "Datenfeld 3:"
+
+#: ../lib/shared/widgets/contact.php:129
+msgid "Show Social Icons"
+msgstr "Social-Icons anzeigen"
+
+#: ../lib/shared/widgets/flickr.php:19
+msgid "Flickr Picture Stream"
+msgstr "Flickr Bild-Stream"
+
+#: ../lib/shared/widgets/flickr.php:20
+msgid "CUSTOM: Flickr"
+msgstr "EXTRA: Flickr"
+
+#: ../lib/shared/widgets/flickr.php:31
+#: ../lib/shared/widgets/flickr.php:80
+msgid "Flickr Stream"
+msgstr "Flickr Stream"
+
+#: ../lib/shared/widgets/flickr.php:95
+msgid "Flickr ID (<a href=\"http://idgettr.com/\">get ID here</a>):"
+msgstr "Flickr ID (<a href=\"http://idgettr.com/\">ID hier beziehen</a>):"
+
+#: ../lib/shared/widgets/flickr.php:102
+msgid "User"
+msgstr "Benutzer"
+
+#: ../lib/shared/widgets/flickr.php:105
+msgid "Group"
+msgstr "Gruppe"
+
+#: ../lib/shared/widgets/flickr.php:111
+msgid "Latest Pictures"
+msgstr "Letzte Bilder"
+
+#: ../lib/shared/widgets/flickr.php:114
+msgid "Random Pictures"
+msgstr "Zufällige Bilder"
+
+#: ../lib/shared/widgets/flickr.php:117
+msgid "Number of pictures to show:"
+msgstr "Bildanzahl:"
+
+#: ../lib/shared/widgets/latest_posts.php:19
+#: ../lib/shared/widgets/latest_work.php:19
+msgid "Shows your latest portfolio entries"
+msgstr "Zeige letzte Portfolio-Einträge"
+
+#: ../lib/shared/widgets/latest_posts.php:21
+msgid "CUSTOM: Latest Posts"
+msgstr "EXTRA: Letzte Artikel"
+
+#: ../lib/shared/widgets/latest_posts.php:47
+#: ../lib/shared/widgets/latest_posts.php:132
+msgid "Latest Posts"
+msgstr "Letzte Artikel"
+
+#: ../lib/shared/widgets/latest_posts.php:146
+#: ../lib/shared/widgets/latest_work.php:153
+#: ../lib/shared/widgets/twitter.php:250
+msgid "Number of entries to show:"
+msgstr "Eintragsanzahl:"
+
+#: ../lib/shared/widgets/latest_work.php:21
+msgid "CUSTOM: Latest Work"
+msgstr "EXTRA: Letzte Portfolio-Einträge"
+
+#: ../lib/shared/widgets/latest_work.php:47
+#: ../lib/shared/widgets/latest_work.php:139
+msgid "Latest Work"
+msgstr "Letzte Portfolio-Einträge"
+
+#: ../lib/shared/widgets/latest_work.php:158
+msgid "Show as list"
+msgstr "Als Liste anzeigen"
+
+#: ../lib/shared/widgets/social.php:19
+msgid "Show your social links"
+msgstr "Zeige Social-Links"
+
+#: ../lib/shared/widgets/social.php:20
+msgid "CUSTOM: Social Links"
+msgstr "EXTRA: Social-Links"
+
+#: ../lib/shared/widgets/social.php:31
+#: ../lib/shared/widgets/social.php:84
+msgid "Social Links"
+msgstr "Social-Links"
+
+#: ../lib/shared/widgets/social.php:98
+msgid "Number of links to show:"
+msgstr "Linkanzahl:"
+
+#: ../lib/shared/widgets/sub_nav.php:19
+msgid "A sub navigation of all child pages"
+msgstr "Sub-Menü aller Unterseiten"
+
+#: ../lib/shared/widgets/sub_nav.php:20
+msgid "CUSTOM: Sub Navigation"
+msgstr "EXTRA: Sub-Menü"
+
+#: ../lib/shared/widgets/sub_nav.php:31
+#: ../lib/shared/widgets/sub_nav.php:77
+msgid "Sub Navigation"
+msgstr "Sub-Menü"
+
+#: ../lib/shared/widgets/sub_nav.php:89
+msgid "Menu Level Depth:"
+msgstr "Menü-Level-Tiefe"
+
+#: ../lib/shared/widgets/twitter.php:48
+msgid "Display your latest tweets"
+msgstr "Zeige letzte Tweets"
+
+#: ../lib/shared/widgets/twitter.php:49
+msgid "CUSTOM: Twitter"
+msgstr "EXTRA: Twitter"
+
+#: ../lib/shared/widgets/twitter.php:61
+#: ../lib/shared/widgets/twitter.php:227
+msgid "Latest Tweets"
+msgstr "Letzte Tweets"
+
+#: ../lib/shared/widgets/twitter.php:166
+#: ../lib/shared/widgets/twitter.php:175
+msgid "Error while loading Twitter feed."
+msgstr "Fehler beim laden des Twitter-Feeds."
+
+#: ../lib/shared/widgets/twitter.php:246
+msgid "Your Twitter username:"
+msgstr "Twitter Benutername:"
+
+#: ../lib/shared/widgets/twitter.php:255
+msgid "Show Date"
+msgstr "Datum anzeigen"
+
+#: ../lib/shared/widgets/twitter.php:258
+msgid "Show Replies"
+msgstr "Antworten anzeigen"
+
+#: ../lib/shared/widgets/twitter.php:261
+msgid "Show Retweets"
+msgstr "Retweets anzeigen"
+
+#: ../lib/shared/widgets/twitter.php:264
+msgid "Make URLs and usernames clickable"
+msgstr "URLs und Benutzernamen verlinken"
+
+#~ msgid "Shows your latest portfolio posts"
+#~ msgstr "Zeige neuste Portfolio-Einträge"
