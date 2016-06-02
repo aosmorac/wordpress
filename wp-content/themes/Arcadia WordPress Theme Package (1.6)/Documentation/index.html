@@ -1,0 +1,1039 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>"Arcadia WordPress Theme" Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt top">&ldquo;Arcadia WordPress Theme&rdquo; Documentation by Ruven</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Arcadia WordPress Theme&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: May 10, 2012<br/>
+					By: Ruven
+					</strong>
+				</p>
+				<p class="prepend-top small">
+				  Informations about updates and new themes are always announced on <a target="_blank" href="https://plus.google.com/113894971444572788458/">Google+</a>, <a target="_blank" href="http://www.facebook.com/pages/Ruven/115129975163761">Facebook</a> and <a target="_blank" href="http://twitter.com/_ruven">Twitter</a>.
+				</p>
+				<p class="prepend-top">
+  				<a target="_blank" href="https://plus.google.com/113894971444572788458/">
+  				  <img src="assets/images/social_icons/google-plus.png" alt="Follow Ruven on Google+" width="230" height="59">
+  				</a>
+  				<br/>
+  				<a target="_blank" href="http://www.facebook.com/pages/Ruven/115129975163761">
+  				  <img src="assets/images/social_icons/facebook.png" alt="Add Ruven on Facebook" width="230" height="59">
+  				</a>
+  				<br/>
+  				<a target="_blank" href="http://twitter.com/_ruven">
+  				  <img src="assets/images/social_icons/twitter.png" alt="Follow Ruven on Twitter" width="230" height="59">
+  				</a>
+        </p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">
+				  <b>Thank you for purchasing my theme!</b>
+				</p>
+				<p>
+				  This documentation will teach you how to use the Arcadia WordPress Theme.
+				  <br/>I provide pretty extensive help in this file, but this doesn’t mean the theme is hard to use.
+				  I just want to cover every question that might occur.
+				  I also guide you from the installation process through theme specific functions to filling your page with content.
+				</p>
+				<p>
+				  If questions occur that are not covered by this help file, feel free to ask your question in the comment section of this item.
+				</p>
+				<p>
+				  Have fun with your new theme!
+				</p>
+				<p>
+				   Best regards,<br/>
+    		  <span class="alt large">Ruven</span>
+				</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		
+		<ol class="alpha">
+		  
+			<li><a href="#folder-structure">Folder Structure</a></li>
+			
+			<li><a href="#ins">Installation</a>
+			  <ol>
+			    <li><a href="#ins-wp">Installing WordPress</a></li>
+			    <li><a href="#ins-theme">Installing the Theme</a></li>
+			  </ol>
+			</li>
+			
+			<li><a href="#setup">Setup</a>
+			  <ol>
+			    <li><a href="#setup-import">Import Dummy Content</a></li>
+			    <li><a href="#setup-theme-settings">Basic Theme Settings</a>
+			      <ul>
+			        <li><a href="#setup-front-page">Setup Front Page</a></li>
+			        <li><a href="#setup-blog">Setup Blog</a></li>
+			        <li><a href="#setup-portfolio">Setup Portfolio</a></li>
+			      </ul>
+			    </li>
+			  </ol>
+			</li>
+			
+			<li><a href="#content">Adding Content</a>
+			  <ol>
+  			  <li><a href="#content-custom-menus">Custom Menu</a></li>
+  			  <li><a href="#content-adding">Adding Posts, Pages and Portfolio Entries</a>
+  			    <ul>
+      			  <li><a href="#content-featured-image">How to set a featured image</a></li>
+      			  <li><a href="#content-excerpt">How to set an excerpt</a></li>
+      			  <li><a href="#content-replace-featured-image">How to replace the featured image for certain areas</a></li>
+      			  <li><a href="#content-lightbox">How to set videos and images as Lightbox content</a></li>
+      			  <li><a href="#content-embed-videos">How to embed videos correctly</a></li>
+      			</ul>
+    			</li>
+  			  <li><a href="#content-slider">Adding Slider and Featured Items to the Front Page</a></li>
+  			  <li><a href="#content-disable-comments">Disable Comments for Posts or Pages</a></li>
+  			</ol>
+			</li>
+			
+  		<li><a href="#sc">Shortcodes</a></li>
+  		
+  		<li><a href="#child-theme">Modifying the Theme with a Child Theme</a></li>
+  		
+  		<li><a href="#translating">Translating the Theme</a></li>
+  		
+  		<li><a href="#updating">Updating the Theme</a>
+  		  <ol>
+  		    <li><a href="#updating_1">Automatic Updates</a></li>
+  		    <li><a href="#updating_2">Manual Updates</a></li>
+  		  </ol>
+  		</li>
+  		
+  		<li><a href="#img-sizes">Default Image Sizes</a></li>
+  		
+  		<li><a href="#css">CSS Files and Structure</a></li>
+  		
+  		<li><a href="#photoshop">Photoshop Files</a></li>
+  		
+  		<li><a href="#javascript">JavaScript and jQuery</a></li>
+  		
+  		<li><a href="#faq">FAQ</a></li>
+  		
+  		<li><a href="#support">Support</a></li>
+  		
+  		<li><a href="#sources">Sources and Credits</a></li>
+  		
+		</ol>
+		
+		<hr>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="folder-structure"><strong>A) Folder Structure</strong> - <a href="#toc">top</a></h3>
+		<p>
+		  Inside the theme folder you will find some folders that are for internal use only.
+		  The folder that may be important to you is the folder <i>lib/frontend/</i>. 
+		</p>
+		
+		<ul>
+		  <li><strong>framework</strong> → internal universal classes and functions that are needed to make the theme run</li>
+		  <li><strong>languages</strong> → folder for translation files</li>
+		  <li><strong>lib</strong> → theme secific files
+		    <ul>
+		      <li><strong>backend</strong> → internal functions that are used by the admin panel</li>
+		      <li><strong>frontend</strong> → files that are used for the layout
+		        <ul>
+		          <li><strong>fonts</strong> → font files that are used to display the <i>integrated fonts</i> with the <i>@font-face</i> method</li>
+		          <li><strong>functions</strong> → functions that are needed for the frontend of the theme</li>
+		          <li><strong>images</strong> → layout images and icons for the theme</li>
+        		  <li><strong>javascripts</strong> → contains the jQuery Framework, Cufon files and jQuery plugins</li>
+        		  <li><strong>plugins</strong> → contains additional jQuery plugins that are including files of different document types and theme plugins</li>
+  		        <li><strong>stylesheets</strong> → just contains the <i>reset.css</i>. The main CSS code that styles the theme can be found in the root directory of the theme</li>
+        		  <li><strong>templates</strong> → contains template files for the theme (e.g. code for different front page sliders)</li>
+  		      </ul>
+		      </li>
+		      <li><strong>shared</strong> → functions that are used by the layout and the admin panel</li>
+		    </ul>
+		  </li>
+		</ul>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="ins"><strong>B) Installation</strong> - <a href="#toc">top</a></h3>
+		
+		
+		
+		
+		
+		<h4 id="ins-wp">1) Installing WordPress</h4>
+		
+		<p>
+		  If you are new to WordPress and haven't installed it on your server yet, I recommend to read the <a href="http://codex.wordpress.org/Installing_WordPress">official WordPress installation instructions</a>.
+		</p>
+		
+		
+		
+		
+		
+		<h4 id="ins-theme">2) Installing the Theme</h4>
+		
+		<p>
+		  You can either install the theme by uploading it from the admin panel, which is the easiest method, or you can upload it via FTP to your server.
+		  Some hosting companies restrict the upload size of files, so if the first method doesn't work, please try the second one (via FTP).
+		  Here are the steps for both methods:
+		</p>
+		
+		<h5 id="ins-theme">Installing the Theme via Upload from the Admin Panel</h5>
+		
+		<ol>
+		  <li>Unzip the package you've downloaded from ThemeForest</li>
+		  <li>Log in to your WordPress admin panel</li>
+		  <li>Go to <i>Apparance → Theme</i> and click the tab called <i>Install Themes</i> (on top of the page)</li>
+		  <li>Now click the <i>upload</i> link and click the button <i>Choose File</i></li>
+		  <li>In the dialog window, navigate to the folder that you just unzipped and double click the file <i>Arcadia.zip</i></li>
+		  <li>Now click on <i>Install Now</i></li>
+		  <li>Wait till you see the message <i>Theme installed successfully</i></li>
+		  <li>Click the <i>Activate</i> link and you'll find yourself in the theme settings - <b>it's done!</b></li>
+		</ol>
+		
+		<h5 id="ins-theme">Installing the Theme via FTP (in case it doesn't work via the Admin Panel)</h5>
+		
+		<ol>
+		  <li>Unzip the package you've downloaded from ThemeForest</li>
+		  <li>In the unzipped folder, unzip the file <i>Arcadia.zip</i></li>
+		  <li>Open your FTP program and log on to your server (if you don't have an FTP program, I'd recommend <a href="http://filezilla-project.org/" target="_blank">FileZilla</a></li>
+		  <li>On the server, navigate in your WordPress installation to the directory <i>/wp-content/themes</i></li>
+		  <li>Now upload the folder called <i>Arcadia</i>, that you just unzipped, into this directory</li>
+		  <li>When the upload is complete, log in to your WordPress admin panel</li>
+		  <li>Go to <i>Apparance → Theme</i></li>
+		  <li>Here you should see the Arcadia Theme</li>
+		  <li>Click the <i>Activate</i> link and you'll find yourself in the theme settings - <b>it's done!</b></li>
+		</ol>
+		
+		<p class="box">
+		  <b>Notice:</b> If you should've trouble with the theme installation, I recommend to read the <a href="http://codex.wordpress.org/Using_Themes#Using_Themes">official WordPress Theme installation instructions</a>.
+		</p>
+		
+		<p>
+		  Now we can start to fill your site with content and then set up some options for the theme.
+		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="setup"><strong>C) Setup</strong> - <a href="#toc">top</a></h3>
+		
+		<h4 id="setup-import">1) Import Dummy Content</h4>
+		
+		<p>
+		  In the unzipped folder of the file you've got from ThemeForest, you'll find another folder called <i>Dummy Content</i>.
+      In there you'll find the file <i>dummy_content.xml</i>.
+      Here are the steps to import this file into WordPress, so you can have an easier start:
+		</p>
+		
+		<ol>
+		  <li>Log in to your WordPress admin panel</li>
+		  <li>Go to <i>Tools → Import</i></li>
+		  <li>Click the link that reads <i>WordPress</i> in the tables last row</li>
+		  <li>On the next screen with the title <i>Import WordPress</i>, click the button <i>Choose File</i></li>
+		  <li>In the dialog window, navigate to the unzipped theme folder and then into the folder <i>Dummy Content</i>, where you double click the file <i>dummy_content.xml</i></li>
+		  <li>Now click the button <i>Upload file and import</i></li>
+		  <li>On the next screen I recommend to assign the imported posts to an existing user (with the select menu) and to activate the checkbox called <i>Download and import file attachments</i></li>
+		  <li>After you click <i>submit</i> you should get an <i>All done</i> message :)</li>
+		</ol>
+		
+		
+		
+		
+		
+		<h4 id="setup-theme-settings">2) Basic Theme Settings</h4>
+		
+		<p>
+		  Arcadia has a lot of admin options.
+		  But don't worry - you don't have to go through all of them to make the theme work.
+		  In fact, the theme works right out of the box. There are just a few things you have to set up to get your Front Page, Blog and Portfolio going.
+		  Basically, you just need to create 3 new pages (<i>Pages → Add New</i>): one for the Front Page, one for the Blog and one for the Portfolio.
+		  If you imported the dummy content you'll already have these pages and you can jump right into the options:
+		</p>
+		
+		<h5 id="setup-front-page">Setup Front Page</h5>
+		<ol>
+		  <li>Go to <i>Theme Options → Front Page</i></li>
+		  <li>Select the page <i>Front Page</i> from the select menu under the options <i>Select Content Page</i></li>
+		  <li>Click the button <i>Save Changes</i> (on the bottom of the page)</li>
+		</ol>
+		
+		<h5 id="setup-blog">Setup Blog</h5>
+		<ol>
+		  <li>Go to <i>Theme Options → Blog</i></li>
+		  <li>Select the page <i>Blog</i> from the select menu under the options <i>Select Blog Page</i></li>
+		  <li>Click the button <i>Save Changes</i> (on the bottom of the page)</li>
+		</ol>
+		
+		<h5 id="setup-portfolio">Setup Portfolio</h5>
+		<ol>
+		  <li>Go to <i>Theme Options → Portfolio</i></li>
+		  <li>Select the page <i>Portfolio</i> from the select menu under the options <i>Select Portfolio Page</i></li>
+		  <li>Now select the categories of which you want portfolio entries on your page</li>
+		  <li>Click the button <i>Save Changes</i> (on the bottom of the page)</li>
+		</ol>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="content"><strong>D) Adding Content</strong> - <a href="#toc">top</a></h3>
+		
+		
+		
+		
+		
+		<h4 id="content-custom-menus">1) Custom Menu</h4>
+		
+	  <p class="box">
+	    <b>Notice:</b> If you've never worked with the Menu Manager before, I recommend reading the <a href="http://codex.wordpress.org/Appearance_Menus_Screen">WordPress Codex Page about Menus</a>.
+	  </p>
+	  
+		<p>
+		  I highly recommend to create a custom menu for the main navigation, because else, WordPress will automatically add every new page that you create to the main navigation and it can easily "overflow".
+		</p>
+		
+		<p>
+		  To create a custom menu, do the following steps:
+		</p>
+		
+		<ol>
+		  <li>Go to <i>Appeance → Menus</i></li>
+		  <li>Enter a menu name (e.g. "Main") and hit <i>Create Menu</i></li>
+		  <li>In the panel <i>Theme Locations</i> under <i>Main Menu</i>, select your newly created menu (e.g. "Main") and hit <i>Save</i></li>
+		  <li>Now you can start adding menu items from the panels on the left side of the screen</li>
+		  <li>Hit <i>Save Menu</i> when you're done adding items</li>
+		</ol>
+		
+		<p>
+		  As you might have noticed, there are two more locations in the panel <i>Theme Locations</i> called <i>Header Bar Menu</i> and <i>Footer Bar Menu</i>.
+		  By clicking the <i><b>+</b></i> tab you can add more custom menus and add them to these locations.
+		  The options for the header and footer bars can be found under <i>Theme Options → Info Bars</i>.
+		  There you can pick what type of content to show in the info bars.
+		  And under <i>Theme Options → Layout</i> you can decide if the info bars should be displayed at all.
+		</p>
+		
+		
+		
+		
+		
+		<h4 id="content-adding">2) Adding Posts, Pages and Portfolio Entries</h4>
+		
+		<p>
+		  The options for Posts, Pages and Portfolio Items are almost the same.
+		  The theme adds some extra panels called <i>Featured Content Replacements</i> (will be described below) and <i>Template Options</i>, to change the page content size (sidebar or full width), the sidebar position (left or right), the sidebar style (default or wide), the sidebar (that you can add in <i>Theme Options → Sidebars</i> and fill with widgets in <i>Apperance → Widgets</i> and, for Portfolio Entries, the link to external websites (which displays a <i>Visit Site</i> link next to the <i>Read More</i> link).
+		</p>
+		
+		<h5 id="content-excerpt">How to set an excerpt</h5>
+		
+		<p>
+		  You can set excerpts in 3 different ways.
+		  By default an excerpt of 55 words is created for overview pages.
+		  You can change this in <i>Theme Options → Blog</i> and <i>Theme Options → Portfolio</i>.
+		  You can either chose that the excerpt is automatically created or that you want to set it by yourself by setting a <i>More Tag</i> in your text or by writing the excerpt in the excerpt panel.
+		  If you prefer to write a summary of your post in the excerpt panel you might have to activate it first.
+		  To do that, click the <i>Screen Options</i> tab on the top right corner of your screen and set a check mark on <i>Excerpt</i>.
+		  For Portfolio items I would always recommend to do it this way, since you can write a quick summary about the item separate from the text.
+		</p>
+		
+		<h5 id="content-featured-image">How to set a featured image</h5>
+		
+		<p>
+		  <img src="assets/images/featured-image_1.png" class="right" />
+		  The panel for the <i>Featured Image</i> is on the bottom right.
+		  Click the link <i>Set featured image</i> to let the media library appear.
+		  Upload or choose an image and click <i>Use as featured image</i> (not <i>Intert into Post</i>).
+		  Don't worry if the scale of your image is too big, because the theme automatically downsizes the image to fit.
+		</p>
+		
+		
+		
+		<h5 id="content-replace-featured-image">How to replace the featured image for certain areas</h5>
+		
+		<p>
+		  <img src="assets/images/featured-content-replacement-panel.png" width="400" class="right" />
+		</p>
+		<p>
+		  A panel called <i>Featured Content Replacement</i> is located directly under your editor.
+		  Here you can overwrite the <i>Featured Image</i> for certain areas.
+		</p>
+		
+		<p>
+		  For example: if you want to show a different image on the single post than the <i>Featured Image</i> that is displayed in your blog / post overview, paste the URL to your image of choice into the <i>Overview</i> field.
+		  <br/>
+		  Or if you want to show a videos instead of the <i>Featured Image</i> in the Lightbox, paste the link into the <i>Lightbox</i> field.
+		</p>
+		
+		<p>
+		  To get the URL you can also simply click on the <i>Set Content</i> button to make the media library appear.
+		  Select your image and click the <i>Insert into Post</i> button.
+		</p>
+		
+		<p>
+		  You can also set the resize method for the content with the select menus under the content input fields.
+		  If you leave the option <i>Inherit Size from Image Options</i> on, the images will adapt the size you've set in the theme options for the specific post type.
+		  <br/>
+		  For example: if you edit a blog post and set a replacement image or video with the resize method <i>Inherit Size from Image Options</i>, it will scale the image or video exactly after the <i>Featured Image Size</i> settings you've entered under <i>Theme Options → Blog</i>.
+		</p>
+		
+		
+		<h5 id="content-lightbox">How to set videos and images as Lightbox content</h5>
+		
+		<p>
+		  If you set a <i>Featured Image</i>, the lightbox will automatically display a big version of the image.
+		  But if you want to change the lightbox image into something else or even display a video instead, you have to paste the URL to the image or video into the <i>Lightbox</i> field.
+		  Please be aware that the <i>Lightbox</i> field is the only field besides the others where you <b>don't</b> have to paste in the video embedding code.
+		  Just paste in the URL to the video and the theme will figure out the rest.
+		</p>
+		
+		<p>
+		  Here are some examples of how the URL could look like:
+		</p>
+		
+		<ol>
+		  <li><strong>Vimeo Video:</strong> http://vimeo.com/16369165</li>
+		  <li><strong>YouTube Video:</strong> http://www.youtube.com/watch?v=7JAyaBuOYyY</li>
+		  <li><strong>Resized Vimeo Video:</strong> http://vimeo.com/16369165?width=800&height=450</li>
+		</ol>
+		
+		<p>
+		  Noticed something in the last URL example?
+		  Yes, you can even set the size of the video by adding some URL parameters to the video URL (e.g. <b>?width=800&height=450</b>).
+		</p>
+		
+		<p>
+		  You can find more examples on the homepage of the lightbox creator:
+		  <br/><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a>
+		</p>
+		
+		
+		<h5 id="content-embed-videos">How to embed videos correctly</h5>
+		
+		<p>
+		  <img src="assets/images/youtube-embed.png" width="360" class="left" />
+		  In the <i>Featured Content Replacement</i> panel you have the option to embed videos in the fields <b><i>Overview</i></b> and <b><i>Entry</i></b>.
+		  You get the embed code on the video portal websites.
+		  <br/>E.g. on YouTube you just have to click <i>Share → Embed</i> under the video, and then copy and paste the embed code into the field.
+		  The width and height of the video don't have to be adjusted, because the theme will resize the video automatically.
+		</p>
+		
+		<p>
+		  Only in case you want to embed a video into the content (Visual or HTML editor) instead of the featured area, you have to set the right size.
+		  For a page that has a sidebar that would be 600 pixel width and for a full width page (without sidebar) it's 900 pixel width (the height gets adjusted automatically).
+		</p>
+		
+		
+		
+		
+		
+		<h4 id="content-slider">3) Adding Slider and Featured Items to the Front Page</h4>
+		
+		<p>
+		  <img src="assets/images/slider-options.png" class="right" />
+		  To add slider or featured items to the front page you first have to set what slider or feature area you want to see on the front page.
+		  You can do this by going to <i>Theme Options → Front Page</i> and select a method from the select menu in the <i>Slider / Feature</i> panel.
+		</p>
+		
+		<p>
+		  If you haven't choosen <i>Static Content / Video</i> (which can be set directly in the <i>Front Page</i> settings), please navigate now to <i>Featured Items → Add New</i>.
+		  Here you need to set a <i>Featured Image</i> and a title.
+		  The rest is optional.
+		  <br/>
+		  Depending on the slider or feature area you've picked, you'll see options like <i>Description</i> and <i>Featured Item Link</i> and in some cases even a whole panel with more slider settings (e.g. <i>Caption Position</i> [to position the description text as caption] or <i>Read More Link</i> [to change the text of the read more link]</i>.
+		  So please check out these options, after you changed the slider in the <i>Front Page</i> options.
+		  The possibilities might surprise you ;)
+		</p>
+		
+		
+		
+		
+		
+		<h4 id="content-disable-comments">4) Disable Comments for Posts or Pages</h4>
+		
+		<p>
+		  To disable comments for all <b>new</b> posts and pages, go to <i>Settings → Discussion</i> and uncheck the box <i>Allow people to post comments on new articles</i>.
+		  Please note that this only disables for <b>new</b> posts and pages.
+		  The ones you already have, need to be disabled manually.
+		  <br/>
+		  To do this, please follow these steps:
+		</p>
+		
+		<ol>
+		  <li>Go to edit the post or page you want to disable the comment on</li>
+		  <li>On the top right of your window you'll see a little tab called <i>Screen Options</i> that you click</li>
+		  <li>In the roll-down area, check the box <i>Discussion</i> if it is not already checked</li>
+		  <li>Now scroll down and you should see a panel called <i>Discussion</i> below the other panels</li>
+		  <li>In this panel uncheck the box <i>Allow comments</i> and you're done!</li>
+		</ol>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="sc"><strong>E) Shortcodes</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+		  Shortcodes in Arcadia are as easy as pie.
+		  When ever you edit a page or post, look for the little yellow flash icon in the toolbar of the visual editor.
+		  One click on it reveals a menu of all the shortcodes you can insert into your page.
+		  Just choose the one you need...
+		</p>
+		
+		<div class="span-10">
+		  <img src="assets/images/sc_1.png" width="100%" />
+		</div>
+		
+		<div class="span-10 last">
+		  <img src="assets/images/sc_2.png" width="100%" />
+		</div>
+		
+		<div class="clear clearfix"></div>
+		
+		<p>
+		  <img src="assets/images/sc_3.png" width="450" class="border with-padding right" />
+		  Some shortcodes offer you an options form to configure the output.
+		  Some of these forms might seem extensive, but please keep in mind that the most options are optional and don't have to be set.
+		  Required fields are marked <b>bold</b> (like the first option <i>Blockquote</i> in the screenshot).
+		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="child-theme"><strong>F) Modifying the Theme with a Child Theme</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+		  Over are the dark old days where you had to modify the theme directly to make some changes, but then weren't able to update it anymore.
+		  <br/>
+		  Arcadia is a robust parent theme, so if you want to change functions, classes or template files, all you have to do is to create a child theme and overwrite the already existing function.
+		  This way the original theme stays untouched and you can preform updates without worrying that your code gets lost.
+		  I even created a child theme skeleton to make the process even easier for you.
+		</p>
+		
+		<p>
+		  Just upload the ZIP file that is in the theme package folder <i>Child Theme Skeleton</i> the same way as it is stated in the section <a href="#ins">Installing the Theme</a>.
+		  After you activate your child theme you will be able to operate inside this theme and all changes will be applied to Arcadia.
+		</p>
+		
+		<p class="box">
+		  <b>Notice:</b> If you've never worked with child themes before I recommend reading the <a href="http://codex.wordpress.org/Child_Themes">WordPress Codex page about child themes</a>.
+		  Turst me, you'll get it easy and it is well worth the efford :)
+		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="translating"><strong>G) Translating the Theme</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+		  Arcadia is complete translation ready.
+		  Whithin the theme files you'll find a folder called <i>languages</i>.
+		  This is where your translation files go.
+		  German, Dutch, French and Spanish are already included, but by default the theme speaks english.
+		</p>
+		
+		<p>
+		  Here are the steps to create a translation file for another language:
+		</p>
+		
+		<ol>
+		  <li>Download a gettext file editor like <a href="http://www.poedit.net/">poedit</a> and install it.</li>
+		  <li>Open Poedit and select <i>File → New Catalog from POT file...</i></li>
+		  <li>In the dialog window, navigate to your theme files into the folder <i>languages</i> and double click the file <i>arcadia.pot</i></li>
+		  <li>On the next window that pops up you can give your catalog a name and a version (e.g. "Arcadia Swedish 1.0"), select a language, a country and two charsets (should be set to <i>UTF-8</i>)</li>
+		  <li>After you hit <i>OK</i>, Poedit will open a new save dialog window and you should save you new translation file into the <i>languages</i> folder and name it after the appropriate country code (e.g. "de_DE.po")</li>
+		  <li>Now you can start translating</li>
+		  <li>Hit <i>Save</i> when you're done</li>
+		</ol>
+		
+		<p class="box">
+		  <b>Notice:</b>
+		  If you're not sure what country code to use, you can also check it in the file <i>wp-config.php</i> in the WordPress root directory.
+		  Just open the file and search for the line <code>define('WPLANG', '');</code> (should be around line 72).
+		  By default (if nothing is set) the country code is <i>en_US</i>, but you can also set it manually, e.g. to <code>define('WPLANG', 'de_DE');</code>.
+		  This would, of course invoke the file <i>de_DE.po</i>.
+		</p>
+		
+		<p>
+		  If you have WordPress already installed in the language you've translated your theme to, the translation should kick right in.
+		  If it doesn't, make sure to install WordPress in the right language or change the WordPress language manually (as described in the notice box above).
+		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+      <h3 id="updating"><strong>H) Updating the Theme</strong> - <a href="#toc">top</a></h3>
+  		
+  		<p>
+  		  There are two ways to update the theme.
+  		  You can either the use the <a href="https://github.com/envato/envato-wordpress-toolkit/downloads">Envato WordPress Toolkit</a> plugin and update Arcadia (and all other ThemeForest themes) through WordPress' admin panel, or you can do it manually by using an FTP client.
+  		</p>
+  		
+  		<p>
+  		  Here I describe both ways:
+  		</p>
+  		
+  		
+  		
+  		
+  		<h4 id="updating_1">1) Automatic Updates</h4>
+      
+      <ol>
+        <li>Download the <a href="https://github.com/envato/envato-wordpress-toolkit">Envato WordPress Toolkit</a> plugin.</li>
+        <li>Upload the <i>envato-wordpress-toolkit</i> folder to the <i>/wp-content/plugins/</i> directory on your server.</li>
+        <li>Activate the plugin through the <i>Plugins</i> menu in WordPress.</li>
+        <li>
+          To establish a ThemeForest API connection, navigate to the <i>Envato Toolkit</i> page and insert your ThemeForest username and secret API key in the designated input fields.
+          To obtain your API Key, visit your <i>My Settings</i> page on ThemeForest.
+        </li>
+        <li>
+          After clicking <i>Save Settings</i>, you should see all ThemeForest themes you have installed.
+          If an update is available, you'll see a message below the theme and you can click on <i>update automatically</i>.
+        </li>
+      </ol>
+      
+      
+      
+      
+  		<h4 id="updating_2">2) Manual Updates</h4>
+  		
+  		
+      <p>
+        A manual update requires you to re-download and re-install the theme on your WordPress installation.
+        But don't worry.
+        None of your theme settings will get lost (they are stored in the database and not in the theme files).
+      </p>
+      
+      <p>
+        To get notified about updates, you should add me on your social networks:
+      </p>
+      
+      <ul>
+        <li><a target="_blank" href="https://plus.google.com/113894971444572788458/">My Google+ profile</a></li>
+        <li><a target="_blank" href="http://www.facebook.com/pages/Ruven/115129975163761">My Facebook profile</a></li>
+        <li><a target="_blank" href="http://twitter.com/_ruven">My Twitter profile</a></li>
+      </ul>
+      
+      <p>
+        Please follow these steps to update the theme:
+      </p>
+      
+      <ol>
+        <li>Re-download the theme package from ThemeForest in <i>My Account → Downloads</i> (here you can also rate the theme).</li>
+        <li>Log in to your WordPress admin panel.</li>
+  		  <li>Go to <i>Apparance → Theme</i> and deactivate the current <i>Arcadia</i> theme by temporarily <b>activating</b> the default theme <i>Twenty Eleven</i>.</li>
+  		  <li>Under <i>Available Themes</i>, on the deactivated <i>Arcadia</i> theme, click on <i>Delete</i> to remove it.</li>
+  		  <li>To upload the new version of the theme, just follow the <a href="#ins">installation instructions from above</a>.</li>
+      </ol>
+      
+      <p class="box">
+        <b>Notice:</b> If you have ever modified any theme files directly, I assume you have a local copy of them on your computer.
+        If you don't, please login to your WordPress installation via FTP and backup the old theme files, before you remove them from the server.
+        Please note that these modifications will be lost after the update.
+        Child Themes are the right choice to modify theme files without losing the code after an update (you can read about them <a href="#child-theme">here</a>).
+      </p>
+    </p>
+    
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="img-sizes"><strong>I) Default Image Sizes</strong> - <a href="#toc">top</a></h3>
+		<p>
+  		By default the following image sizes are used by the theme:    </p>
+    
+    <table summary="Image Sizes">
+      <colgroup>
+        <col width="30%">
+        <col width="17%">
+        <col width="*">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Width (in pixels)</th>
+          <th>Height (in pixels)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Feature / Fullwidth</td>
+          <td>900</td>
+          <td>408</td>
+        </tr>
+        
+        <tr>
+          <td>1 Column</td>
+          <td>586</td>
+          <td>274</td>
+        </tr>
+        <tr>
+          <td>1 Column (Full Width)</td>
+          <td>886</td>
+          <td>415</td>
+        </tr>
+        
+        <tr>
+          <td>2 Columns</td>
+          <td>274</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td>2 Columns (Full Width)</td>
+          <td>418</td>
+          <td>220</td>
+        </tr>
+        
+        <tr>
+          <td>3 Columns</td>
+          <td>169</td>
+          <td>104</td>
+        </tr>
+        <tr>
+          <td>3 Columns (Full Width)</td>
+          <td>261</td>
+          <td>152</td>
+        </tr>
+        
+        <tr>
+          <td>4 Columns</td>
+          <td>118</td>
+          <td>86</td>
+        </tr>
+        <tr>
+          <td>4 Columns (Full Width)</td>
+          <td>184</td>
+          <td>124</td>
+        </tr>
+        
+        <tr>
+          <td>Two Third</td>
+          <td>377</td>
+          <td>273</td>
+        </tr>
+        <tr>
+          <td>Two Third (Full Width)</td>
+          <td>586</td>
+          <td>274</td>
+        </tr>
+        
+        <tr>
+          <td>One Half</td>
+          <td>274</td>
+          <td>188</td>
+        </tr>
+        <tr>
+          <td>Two Third (Full Width)</td>
+          <td>418</td>
+          <td>220</td>
+        </tr>
+        
+        <tr>
+          <td>One Half</td>
+          <td>274</td>
+          <td>188</td>
+        </tr>
+        <tr>
+          <td>One Half (Full Width)</td>
+          <td>418</td>
+          <td>220</td>
+        </tr>
+        
+        <tr>
+          <td>One Third</td>
+          <td>169</td>
+          <td>169</td>
+        </tr>
+        <tr>
+          <td>One Third (Full Width)</td>
+          <td>261</td>
+          <td>261</td>
+        </tr>
+        
+        <tr>
+          <td>One Fourth</td>
+          <td>118</td>
+          <td>118</td>
+        </tr>
+        <tr>
+          <td>One Fourth (Full Width)</td>
+          <td>184</td>
+          <td>184</td>
+        </tr>
+        
+        <tr>
+          <td>Image inside default Sidebar</td>
+          <td>249</td>
+          <td>* (various)</td>
+        </tr>
+        
+      </tbody>
+    </table>
+    
+    <p>
+      Since the theme supports extensive options to change the image sizes, you can change the height of almost all of them within the admin panel.
+    </p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="css"><strong>J) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+		
+		<p>      The CSS code structure is pretty simple. 
+      In every CSS file you will find headlines that tell you what the following code is about.
+      <br/><br/>      <strong>Technical Note:</strong>
+      In front of every headline is the word <i>@group</i>.
+      This is a special tag, that is used by some CSS-Editors in order to let you navigate through your code faster by the use of a tree view where every group gets displayed as a folder.
+    </p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="photoshop"><strong>K) Photoshop Files</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+		  Among with the theme come all PSD files needed to edit the different layout styles and colors. With these files you can even create your own unique layout style.
+		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="javascript"><strong>L) JavaScript and jQuery</strong> - <a href="#toc">top</a></h3>
+		
+		<p class="box">
+		  <b>Notice:</b> Every JavaScript plugin works out of the box or can be controlled by through the WordPress admin panel.
+		  You only have to read this section if you intent to edit or apply new JavaScript code.
+		</p>
+		
+		<p>
+  		This theme makes use of the jQuery JavaScript Framework and contains plugins that are written with the frameworks syntax.
+  		Further the theme is using the font replacement engine Cufon.    </p>
+    
+    <p>      All JavaScript files are included in the head of the theme files.
+      <br/>Most of the JavaScript files can be found in the directory <i>lib/frontend/javascript</i>.
+      The files of plugins that require more than just a JavaScript file are located in the directory <i>lib/frontend/plugins</i>.
+		</p>
+		
+		<h5>Plugin Settings and Custom JavaScript</h5>
+		
+		<p>
+		  To change the settings of a plugin, simply edit the <i>script.js</i> file inside the <i>javascript</i> folder.
+		  Here you will find all the code that configures and invokes the plugins.
+		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="faq"><strong>M) FAQ</strong> - <a href="#toc">top</a></h3>
+		
+		<h4>How can I thank you for this awesome theme? =D</h4>
+		<p>
+		  That's easy.
+		  If you're satisfied with the theme, you could log in to your <a href="http://themeforest.net">ThemeForest</a> account rate the theme.
+		  You can do this under <i>My Account / Downloads</i>. Just hover over the 5th star and click ;p
+		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="support"><strong>N) Support</strong> - <a href="#toc">top</a></h3>
+		<p>
+		  If you have any further questions, please use the comment section of this item at <a href="http://themeforest.net/">themeforest.net</a>.
+		  This way other users can benefit from the solution as well.
+		  I will try my best to answer every question.		</p>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<h3 id="sources"><strong>O) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>
+  		The template is using the following external scripts and resources:
+		</p>
+		
+		<ul>
+		  <li><a href="http://nivo.dev7studios.com/">Nivo Slider</a> jQuery Slideshow Plugin</li>
+		  <li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">prettyPhoto</a> jQuery Plugin (as Lightbox)</li>
+		  <li><a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">Validation</a> jQuery Plugin (to validate forms on the fly)</li>
+		  <li><a href="http://www.malsup.com/jquery/form/">Form</a> jQuery Plugin (to submit forms via AJAX)</li>
+		  <li><a href="http://iconsweets2.com/">Icon Sweets 2</a> for the text icons</li>
+		  <li><a href="http://www.komodomedia.com/download/#social-network-icon-pack">Social Bookmark Icons</a></li>
+		  <li><a href="http://www.fontsquirrel.com/">Fonts from Font Squirrel</a></li>
+		  <li><a href="http://code.google.com/webfonts">Google Web Fonts</a></li>
+		</ul>
+		
+		<br/>
+		<hr/>
+		<br/>
+		
+		<p>
+		  Thank you very much for purchasing this theme!
+		  I wish you all the best for the website that will grow out of it.
+		  If you want, you can post the URL of your final website in the comment section.
+		  I would really like to see how this theme takes its place in the world wide web :)
+		</p>
+		
+		<p>
+		  Best regards,
+		  <br/>
+		  <span class="alt large">Ruven</span>
+		</p>
+		
+		<br/>
+		<hr/>
+		<br/>
+		
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+		
+		
+		
+		
+		
+	</div><!-- end div .container -->
+</body>
+</html>
